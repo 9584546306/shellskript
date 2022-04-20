@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 echo "local changes"
+=======
+echo "remote changes"
+>>>>>>> 3076ae42f6fced140b9b0f57249acefb5f2a9663
