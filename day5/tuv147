@@ -1,0 +1,14 @@
+#!/bin/bash -x
+isPresent=0
+isPresent=1
+isPresent=2
+randomCheck=$((RANDOM%3))
+if [ $ispresent -eq $randomCheck ]
+then
+	echo "Employee is present"
+elif [ $isPartPresent -eq $randomCheck ]
+then
+	echo "Employee is part time present"
+else
+	echo "Employee is absent"
+fi
